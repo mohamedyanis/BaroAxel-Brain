@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>F:\Documents\Kicad\KiCad 6\BaroAxel_Brain_Board\BaroAxel_Brain.kicad_sch</source>
+    <date>2024-04-22 2:42:48 PM</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BaroAxel Brain Board</title>
+        <company>Electro Scientific Club | Mohamed Yanis Hiou</company>
+        <rev>1.2</rev>
+        <date/>
+        <source>BaroAxel_Brain.kicad_sch</source>
+        <comment number="1" value="STM32 Based Barometer/Accelerometer Board."/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power Supply &amp; Connectors/" tstamps="/0dde1a12-4145-4554-9b24-9ad6cac7b862/">
+      <title_block>
+        <title>BaroAxel Brain PCB | Power Supply &amp; Coonectors Section</title>
+        <company>Electro Scientific Club | Mohamed Yanis Hiou</company>
+        <rev>1.2</rev>
+        <date/>
+        <source>BaroAxel_Brain_STM32_Power_Supply.kicad_sch</source>
+        <comment number="1" value="AMS1117-3.3 Reulator and Board's Connectors."/>
+        <comment number="2" value="Power Supply's section of the BaroAxel Brain PCB."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Microcontroller/" tstamps="/85d6746d-67b5-4dcb-bee3-5eb3898d9840/">
+      <title_block>
+        <title>BaroAxel Brain PCB | STM32 MCU Section</title>
+        <company>Electro Scientific Club | Mohamed Yanis Hiou</company>
+        <rev>1.2</rev>
+        <date/>
+        <source>BaroAxel_Brain_STM32_MPU.kicad_sch</source>
+        <comment number="1" value="High Speed Crystal Oscillator 16MHz."/>
+        <comment number="2" value="STM32L031G6U6 Microcontroller."/>
+        <comment number="3" value="Microcontroller's Section of the BaroAxel Brain PCB."/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Sensors/" tstamps="/b4f27614-3f6f-4323-81a2-9ad30bde4b4c/">
+      <title_block>
+        <title>BaroAxel Brain PCB | Sensors Section</title>
+        <company>Electro Scientific Club | Mohamed Yanis Hiou</company>
+        <rev>1.2</rev>
+        <date/>
+        <source>BaroAxel_Brain_STM32_Sensors.kicad_sch</source>
+        <comment number="1" value="MPU6050 and BMP280 Sensors."/>
+        <comment number="2" value="Sesnsors' section of the BaroAxel Brain PCB."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C101">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Power Supply &amp; Connectors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Power_Supply.kicad_sch"/>
+      <sheetpath names="/Power Supply &amp; Connectors/" tstamps="/0dde1a12-4145-4554-9b24-9ad6cac7b862/"/>
+      <tstamps>06b03d8c-f3d1-490b-82b4-333e9a68f703</tstamps>
+    </comp>
+    <comp ref="C102">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Power Supply &amp; Connectors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Power_Supply.kicad_sch"/>
+      <sheetpath names="/Power Supply &amp; Connectors/" tstamps="/0dde1a12-4145-4554-9b24-9ad6cac7b862/"/>
+      <tstamps>32ccdcc9-a873-4cac-a0c1-9e41490790b2</tstamps>
+    </comp>
+    <comp ref="D101">
+      <value>B5819W</value>
+      <footprint>Diode_SMD:D_1206_3216Metric</footprint>
+      <libsource lib="Device" part="D_Shockley" description="Shockley (PNPN) diode"/>
+      <property name="Sheetname" value="Power Supply &amp; Connectors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Power_Supply.kicad_sch"/>
+      <sheetpath names="/Power Supply &amp; Connectors/" tstamps="/0dde1a12-4145-4554-9b24-9ad6cac7b862/"/>
+      <tstamps>87ca5658-30f6-41fb-8114-f15071c557a8</tstamps>
+    </comp>
+    <comp ref="D102">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sheetname" value="Power Supply &amp; Connectors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Power_Supply.kicad_sch"/>
+      <sheetpath names="/Power Supply &amp; Connectors/" tstamps="/0dde1a12-4145-4554-9b24-9ad6cac7b862/"/>
+      <tstamps>d4050b9f-ca5d-44d4-87ee-254c4aee3800</tstamps>
+    </comp>
+    <comp ref="F101">
+      <value>500mA</value>
+      <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value="Power Supply &amp; Connectors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Power_Supply.kicad_sch"/>
+      <sheetpath names="/Power Supply &amp; Connectors/" tstamps="/0dde1a12-4145-4554-9b24-9ad6cac7b862/"/>
+      <tstamps>6f0ff7ce-a7ac-4fd3-abb9-33d822bac461</tstamps>
+    </comp>
+    <comp ref="FB101">
+      <value>100 @ 100MHz</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
+      <property name="Sheetname" value="Power Supply &amp; Connectors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Power_Supply.kicad_sch"/>
+      <sheetpath names="/Power Supply &amp; Connectors/" tstamps="/0dde1a12-4145-4554-9b24-9ad6cac7b862/"/>
+      <tstamps>b37242b2-0f29-45ca-a005-9ae357f1b775</tstamps>
+    </comp>
+    <comp ref="H101">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Power Supply &amp; Connectors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Power_Supply.kicad_sch"/>
+      <sheetpath names="/Power Supply &amp; Connectors/" tstamps="/0dde1a12-4145-4554-9b24-9ad6cac7b862/"/>
+      <tstamps>81414b57-7abf-400a-90c4-a08d51372b9a</tstamps>
+    </comp>
+    <comp ref="H102">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Power Supply &amp; Connectors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Power_Supply.kicad_sch"/>
+      <sheetpath names="/Power Supply &amp; Connectors/" tstamps="/0dde1a12-4145-4554-9b24-9ad6cac7b862/"/>
+      <tstamps>21846f25-38e5-4a6c-b606-ecfb25718aef</tstamps>
+    </comp>
+    <comp ref="H103">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Power Supply &amp; Connectors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Power_Supply.kicad_sch"/>
+      <sheetpath names="/Power Supply &amp; Connectors/" tstamps="/0dde1a12-4145-4554-9b24-9ad6cac7b862/"/>
+      <tstamps>ebc96fd9-e0d1-4797-bb89-6eb3c7bac673</tstamps>
+    </comp>
+    <comp ref="H104">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Power Supply &amp; Connectors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Power_Supply.kicad_sch"/>
+      <sheetpath names="/Power Supply &amp; Connectors/" tstamps="/0dde1a12-4145-4554-9b24-9ad6cac7b862/"/>
+      <tstamps>05b2fd77-725d-4ad8-ad58-9ca7d02bbf6f</tstamps>
+    </comp>
+    <comp ref="J101">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Power Supply &amp; Connectors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Power_Supply.kicad_sch"/>
+      <sheetpath names="/Power Supply &amp; Connectors/" tstamps="/0dde1a12-4145-4554-9b24-9ad6cac7b862/"/>
+      <tstamps>f847c76d-7a06-4c10-8456-3703b6fe7fa0</tstamps>
+    </comp>
+    <comp ref="J102">
+      <value>Conn_01x04</value>
+      <footprint>Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Power Supply &amp; Connectors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Power_Supply.kicad_sch"/>
+      <sheetpath names="/Power Supply &amp; Connectors/" tstamps="/0dde1a12-4145-4554-9b24-9ad6cac7b862/"/>
+      <tstamps>fa2ffe50-cfb4-43e3-b201-4ad510df7909</tstamps>
+    </comp>
+    <comp ref="J103">
+      <value>Conn_01x04</value>
+      <footprint>Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Power Supply &amp; Connectors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Power_Supply.kicad_sch"/>
+      <sheetpath names="/Power Supply &amp; Connectors/" tstamps="/0dde1a12-4145-4554-9b24-9ad6cac7b862/"/>
+      <tstamps>40ce82b0-d30c-4d86-91c8-e54f198ccb10</tstamps>
+    </comp>
+    <comp ref="J104">
+      <value>Conn_01x04</value>
+      <footprint>Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Power Supply &amp; Connectors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Power_Supply.kicad_sch"/>
+      <sheetpath names="/Power Supply &amp; Connectors/" tstamps="/0dde1a12-4145-4554-9b24-9ad6cac7b862/"/>
+      <tstamps>dcb6a3b4-eaa6-46a7-a23c-126155eba09b</tstamps>
+    </comp>
+    <comp ref="J105">
+      <value>Conn_01x04</value>
+      <footprint>Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Power Supply &amp; Connectors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Power_Supply.kicad_sch"/>
+      <sheetpath names="/Power Supply &amp; Connectors/" tstamps="/0dde1a12-4145-4554-9b24-9ad6cac7b862/"/>
+      <tstamps>e721ad55-4fd5-4ca2-9315-4af2e94e60b5</tstamps>
+    </comp>
+    <comp ref="R101">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Power Supply &amp; Connectors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Power_Supply.kicad_sch"/>
+      <sheetpath names="/Power Supply &amp; Connectors/" tstamps="/0dde1a12-4145-4554-9b24-9ad6cac7b862/"/>
+      <tstamps>5e0a303c-5575-49c8-bbe2-ed0691e706fb</tstamps>
+    </comp>
+    <comp ref="U101">
+      <value>AMS1117-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="AMS1117-3.3" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <property name="Sheetname" value="Power Supply &amp; Connectors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Power_Supply.kicad_sch"/>
+      <sheetpath names="/Power Supply &amp; Connectors/" tstamps="/0dde1a12-4145-4554-9b24-9ad6cac7b862/"/>
+      <tstamps>dab49629-4cc8-4aa4-aec6-3b13792f2a64</tstamps>
+    </comp>
+    <comp ref="C201">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_MPU.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/85d6746d-67b5-4dcb-bee3-5eb3898d9840/"/>
+      <tstamps>4fffffd8-2e4b-410b-ba7b-892775876f29</tstamps>
+    </comp>
+    <comp ref="C202">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_MPU.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/85d6746d-67b5-4dcb-bee3-5eb3898d9840/"/>
+      <tstamps>5f5e7fcc-0aeb-4501-8e2e-ca4fa17859b1</tstamps>
+    </comp>
+    <comp ref="C203">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_MPU.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/85d6746d-67b5-4dcb-bee3-5eb3898d9840/"/>
+      <tstamps>4fda90a4-c878-48a6-b145-8319cb2417cf</tstamps>
+    </comp>
+    <comp ref="C204">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_MPU.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/85d6746d-67b5-4dcb-bee3-5eb3898d9840/"/>
+      <tstamps>1af397fa-9ca3-4dfc-ac8c-8f2ce51e507e</tstamps>
+    </comp>
+    <comp ref="C205">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_MPU.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/85d6746d-67b5-4dcb-bee3-5eb3898d9840/"/>
+      <tstamps>5680355b-0420-4041-9c6c-bc1a5cdf149d</tstamps>
+    </comp>
+    <comp ref="C206">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_MPU.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/85d6746d-67b5-4dcb-bee3-5eb3898d9840/"/>
+      <tstamps>e260eb76-ed11-42c0-a87a-544918a5fb11</tstamps>
+    </comp>
+    <comp ref="C207">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_MPU.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/85d6746d-67b5-4dcb-bee3-5eb3898d9840/"/>
+      <tstamps>35ca1ac9-582d-4fe1-8ebc-fcd0354c2881</tstamps>
+    </comp>
+    <comp ref="D201">
+      <value>Yellow</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_MPU.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/85d6746d-67b5-4dcb-bee3-5eb3898d9840/"/>
+      <tstamps>961887de-5cdd-4aea-878c-99d3ad362dd9</tstamps>
+    </comp>
+    <comp ref="D202">
+      <value>Blue</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_MPU.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/85d6746d-67b5-4dcb-bee3-5eb3898d9840/"/>
+      <tstamps>681f8f92-61c5-495e-9e85-bd2f93d0d7c2</tstamps>
+    </comp>
+    <comp ref="FB201">
+      <value>120R</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_MPU.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/85d6746d-67b5-4dcb-bee3-5eb3898d9840/"/>
+      <tstamps>3537d3df-abbf-4894-851c-6910a6eaa96d</tstamps>
+    </comp>
+    <comp ref="R201">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_MPU.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/85d6746d-67b5-4dcb-bee3-5eb3898d9840/"/>
+      <tstamps>011ea068-bd02-4c78-b9c1-c1a8087f4330</tstamps>
+    </comp>
+    <comp ref="R202">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_MPU.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/85d6746d-67b5-4dcb-bee3-5eb3898d9840/"/>
+      <tstamps>bf85bc5b-4058-4dd0-ac5c-5006abec663e</tstamps>
+    </comp>
+    <comp ref="R203">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_MPU.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/85d6746d-67b5-4dcb-bee3-5eb3898d9840/"/>
+      <tstamps>f86e674f-fd44-4d09-9342-cebe86ca3ca0</tstamps>
+    </comp>
+    <comp ref="R204">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_MPU.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/85d6746d-67b5-4dcb-bee3-5eb3898d9840/"/>
+      <tstamps>51025e84-c378-4eae-b40f-c49a763be014</tstamps>
+    </comp>
+    <comp ref="R205">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_MPU.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/85d6746d-67b5-4dcb-bee3-5eb3898d9840/"/>
+      <tstamps>225c514e-e4ca-4704-a3e3-2729f2c86c37</tstamps>
+    </comp>
+    <comp ref="R206">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_MPU.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/85d6746d-67b5-4dcb-bee3-5eb3898d9840/"/>
+      <tstamps>1b6805e4-63a0-4dc8-93b8-1503def9211a</tstamps>
+    </comp>
+    <comp ref="SW201">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_B3U-1000P-B</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_MPU.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/85d6746d-67b5-4dcb-bee3-5eb3898d9840/"/>
+      <tstamps>d6802e5a-9b2a-4cc2-bc11-7636a4d52647</tstamps>
+    </comp>
+    <comp ref="SW202">
+      <value>SW_SPDT</value>
+      <footprint>Button_Switch_SMD:SW_SPDT_PCM12</footprint>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_MPU.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/85d6746d-67b5-4dcb-bee3-5eb3898d9840/"/>
+      <tstamps>74a92ac6-7380-45b1-8b65-3862d068a31a</tstamps>
+    </comp>
+    <comp ref="U201">
+      <value>STM32L031G6U6</value>
+      <footprint>Package_DFN_QFN:QFN-28_4x4mm_P0.5mm</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140359.pdf</datasheet>
+      <libsource lib="MCU_ST_STM32L0" part="STM32L031G6Ux" description="ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 21 GPIO, UFQFPN-28"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_MPU.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/85d6746d-67b5-4dcb-bee3-5eb3898d9840/"/>
+      <tstamps>fd9b1030-6007-4036-9856-79a979d09f5e</tstamps>
+    </comp>
+    <comp ref="X201">
+      <value>ASFL1-16MHz-IJST</value>
+      <footprint>Oscillator:Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm</footprint>
+      <datasheet>https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CAN&amp;lang=en</datasheet>
+      <libsource lib="Oscillator" part="SG-5032CAN" description="CMOS Clock Oscillator 1 to 75 MHz"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_MPU.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/85d6746d-67b5-4dcb-bee3-5eb3898d9840/"/>
+      <tstamps>bfcdb562-ec21-4c7d-9c41-81ded68fc37e</tstamps>
+    </comp>
+    <comp ref="C301">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Sensors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Sensors.kicad_sch"/>
+      <sheetpath names="/Sensors/" tstamps="/b4f27614-3f6f-4323-81a2-9ad30bde4b4c/"/>
+      <tstamps>3c20bd36-f39d-4e45-9048-8727b5636037</tstamps>
+    </comp>
+    <comp ref="C302">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Sensors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Sensors.kicad_sch"/>
+      <sheetpath names="/Sensors/" tstamps="/b4f27614-3f6f-4323-81a2-9ad30bde4b4c/"/>
+      <tstamps>b4ef4fa7-d0ba-4e36-8dd7-f23e5ca5b919</tstamps>
+    </comp>
+    <comp ref="C303">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Sensors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Sensors.kicad_sch"/>
+      <sheetpath names="/Sensors/" tstamps="/b4f27614-3f6f-4323-81a2-9ad30bde4b4c/"/>
+      <tstamps>b830577b-6a3e-474e-84cd-f69edf1d74d6</tstamps>
+    </comp>
+    <comp ref="C304">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Sensors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Sensors.kicad_sch"/>
+      <sheetpath names="/Sensors/" tstamps="/b4f27614-3f6f-4323-81a2-9ad30bde4b4c/"/>
+      <tstamps>ea372c94-5a9c-4dc1-8314-4a79c37ef4ea</tstamps>
+    </comp>
+    <comp ref="C305">
+      <value>2.2n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Sensors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Sensors.kicad_sch"/>
+      <sheetpath names="/Sensors/" tstamps="/b4f27614-3f6f-4323-81a2-9ad30bde4b4c/"/>
+      <tstamps>de965807-ea4d-46cb-b262-99a7c83132ba</tstamps>
+    </comp>
+    <comp ref="R301">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Sensors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Sensors.kicad_sch"/>
+      <sheetpath names="/Sensors/" tstamps="/b4f27614-3f6f-4323-81a2-9ad30bde4b4c/"/>
+      <tstamps>10f995d6-6410-4446-a8da-0df7523addc9</tstamps>
+    </comp>
+    <comp ref="U301">
+      <value>BMP280</value>
+      <footprint>Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering</footprint>
+      <datasheet>https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf</datasheet>
+      <libsource lib="Sensor_Pressure" part="BMP280" description="Absolute Barometric Pressure Sensor, LGA-8"/>
+      <property name="Sheetname" value="Sensors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Sensors.kicad_sch"/>
+      <sheetpath names="/Sensors/" tstamps="/b4f27614-3f6f-4323-81a2-9ad30bde4b4c/"/>
+      <tstamps>1d368327-bfd1-43d9-85b6-41ed303a4e17</tstamps>
+    </comp>
+    <comp ref="U302">
+      <value>MPU-6050</value>
+      <footprint>Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm</footprint>
+      <datasheet>https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf</datasheet>
+      <libsource lib="Sensor_Motion" part="MPU-6050" description="InvenSense 6-Axis Motion Sensor, Gyroscope, Accelerometer, I2C"/>
+      <property name="Sheetname" value="Sensors"/>
+      <property name="Sheetfile" value="Sheets/BaroAxel_Brain_STM32_Sensors.kicad_sch"/>
+      <sheetpath names="/Sensors/" tstamps="/b4f27614-3f6f-4323-81a2-9ad30bde4b4c/"/>
+      <tstamps>7e3438d3-0997-450e-bb9d-7d621ea08307</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Shockley">
+      <description>Shockley (PNPN) diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Shockley</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead">
+      <description>Ferrite bead</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32L0" part="STM32L031G6Ux">
+      <description>ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 21 GPIO, UFQFPN-28</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140359.pdf</docs>
+      <footprints>
+        <fp>QFN*4x4mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32L031G6Ux</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-28_4x4mm_P0.5mm</field>
+        <field name="Datasheet">http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140359.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="PC14" type="bidirectional"/>
+        <pin num="3" name="PC15" type="bidirectional"/>
+        <pin num="4" name="NRST" type="input"/>
+        <pin num="5" name="VDDA" type="power_in"/>
+        <pin num="6" name="PA0" type="bidirectional"/>
+        <pin num="7" name="PA1" type="bidirectional"/>
+        <pin num="8" name="PA2" type="bidirectional"/>
+        <pin num="9" name="PA3" type="bidirectional"/>
+        <pin num="10" name="PA4" type="bidirectional"/>
+        <pin num="11" name="PA5" type="bidirectional"/>
+        <pin num="12" name="PA6" type="bidirectional"/>
+        <pin num="13" name="PA7" type="bidirectional"/>
+        <pin num="14" name="PB0" type="bidirectional"/>
+        <pin num="15" name="PB1" type="bidirectional"/>
+        <pin num="16" name="VSS" type="power_in"/>
+        <pin num="17" name="VDD" type="power_in"/>
+        <pin num="18" name="PA8" type="bidirectional"/>
+        <pin num="19" name="PA9" type="bidirectional"/>
+        <pin num="20" name="PA10" type="bidirectional"/>
+        <pin num="21" name="PA13" type="bidirectional"/>
+        <pin num="22" name="PA14" type="bidirectional"/>
+        <pin num="23" name="PA15" type="bidirectional"/>
+        <pin num="24" name="PB3" type="bidirectional"/>
+        <pin num="25" name="PB6" type="bidirectional"/>
+        <pin num="26" name="PB7" type="bidirectional"/>
+        <pin num="27" name="BOOT0" type="input"/>
+        <pin num="28" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Oscillator" part="SG-5032CAN">
+      <description>CMOS Clock Oscillator 1 to 75 MHz</description>
+      <docs>https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CAN&amp;lang=en</docs>
+      <footprints>
+        <fp>Oscillator*SMD*SeikoEpson*SG8002LB*5.0x3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">SG-5032CAN</field>
+        <field name="Footprint">Oscillator:Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm</field>
+        <field name="Datasheet">https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CAN&amp;lang=en</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{ST}" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AMS1117-3.3">
+      <description>1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223</description>
+      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117-3.3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.advanced-monolithic.com/pdf/ds1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Motion" part="MPU-6050">
+      <description>InvenSense 6-Axis Motion Sensor, Gyroscope, Accelerometer, I2C</description>
+      <docs>https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf</docs>
+      <footprints>
+        <fp>*QFN*4x4mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MPU-6050</field>
+        <field name="Footprint">Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm</field>
+        <field name="Datasheet">https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CLKIN" type="input"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="AUX_SDA" type="bidirectional"/>
+        <pin num="7" name="AUX_SCL" type="output"/>
+        <pin num="8" name="VDDIO" type="power_in"/>
+        <pin num="9" name="AD0" type="input"/>
+        <pin num="10" name="REGOUT" type="passive"/>
+        <pin num="11" name="FSYNC" type="input"/>
+        <pin num="12" name="INT" type="output"/>
+        <pin num="13" name="VDD" type="power_in"/>
+        <pin num="14" name="NC" type="no_connect"/>
+        <pin num="15" name="NC" type="no_connect"/>
+        <pin num="16" name="NC" type="no_connect"/>
+        <pin num="17" name="NC" type="no_connect"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="NC" type="no_connect"/>
+        <pin num="20" name="CPOUT" type="passive"/>
+        <pin num="21" name="NC" type="no_connect"/>
+        <pin num="22" name="NC" type="no_connect"/>
+        <pin num="23" name="SCL" type="input"/>
+        <pin num="24" name="SDA" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Pressure" part="BMP280">
+      <description>Absolute Barometric Pressure Sensor, LGA-8</description>
+      <docs>https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf</docs>
+      <footprints>
+        <fp>Bosch*LGA*2x2.5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BMP280</field>
+        <field name="Footprint">Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering</field>
+        <field name="Datasheet">https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="CSB" type="input"/>
+        <pin num="3" name="SDI" type="bidirectional"/>
+        <pin num="4" name="SCK" type="input"/>
+        <pin num="5" name="SDO" type="bidirectional"/>
+        <pin num="6" name="VDDIO" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_ST_STM32L0">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_ST_STM32L0.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Oscillator">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Oscillator.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Motion">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Sensor_Motion.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Pressure">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Sensor_Pressure.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C102" pin="1" pintype="passive"/>
+      <node ref="C201" pin="1" pintype="passive"/>
+      <node ref="C202" pin="1" pintype="passive"/>
+      <node ref="C203" pin="1" pintype="passive"/>
+      <node ref="C204" pin="1" pintype="passive"/>
+      <node ref="C207" pin="1" pintype="passive"/>
+      <node ref="C301" pin="1" pintype="passive"/>
+      <node ref="C302" pin="1" pintype="passive"/>
+      <node ref="C303" pin="1" pintype="passive"/>
+      <node ref="D102" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="FB201" pin="1" pintype="passive"/>
+      <node ref="J102" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J103" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J104" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J105" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R201" pin="2" pintype="passive"/>
+      <node ref="R205" pin="2" pintype="passive"/>
+      <node ref="R206" pin="2" pintype="passive"/>
+      <node ref="R301" pin="1" pintype="passive"/>
+      <node ref="SW202" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U101" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U201" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U201" pin="17" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U301" pin="6" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U301" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U302" pin="13" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U302" pin="8" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="X201" pin="4" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="+3.3VA">
+      <node ref="C205" pin="1" pintype="passive"/>
+      <node ref="C206" pin="1" pintype="passive"/>
+      <node ref="FB201" pin="2" pintype="passive"/>
+      <node ref="U201" pin="5" pinfunction="VDDA" pintype="power_in"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="D101" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J101" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="4" name="/Microcontroller/ADC1">
+      <node ref="J103" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U201" pin="14" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/Microcontroller/ADC2">
+      <node ref="J103" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U201" pin="15" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/Microcontroller/BOOT0">
+      <node ref="R202" pin="2" pintype="passive"/>
+      <node ref="U201" pin="27" pinfunction="BOOT0" pintype="input"/>
+    </net>
+    <net code="7" name="/Microcontroller/I2C1_SCL">
+      <node ref="R205" pin="1" pintype="passive"/>
+      <node ref="U201" pin="25" pinfunction="PB6" pintype="bidirectional"/>
+      <node ref="U301" pin="4" pinfunction="SCK" pintype="input"/>
+      <node ref="U302" pin="23" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="8" name="/Microcontroller/I2C1_SDA">
+      <node ref="R206" pin="1" pintype="passive"/>
+      <node ref="U201" pin="26" pinfunction="PB7" pintype="bidirectional"/>
+      <node ref="U301" pin="3" pinfunction="SDI" pintype="bidirectional"/>
+      <node ref="U302" pin="24" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/Microcontroller/NRST">
+      <node ref="R201" pin="1" pintype="passive"/>
+      <node ref="SW201" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U201" pin="4" pinfunction="NRST" pintype="input"/>
+    </net>
+    <net code="10" name="/Microcontroller/OSC_IN">
+      <node ref="U201" pin="6" pinfunction="PA0" pintype="bidirectional"/>
+      <node ref="X201" pin="3" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="11" name="/Microcontroller/PWM1">
+      <node ref="J104" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U201" pin="12" pinfunction="PA6" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/Microcontroller/PWM2">
+      <node ref="J104" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U201" pin="13" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/Microcontroller/SWDCLK">
+      <node ref="J102" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U201" pin="22" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/Microcontroller/SWDIO">
+      <node ref="J102" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U201" pin="21" pinfunction="PA13" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/Microcontroller/UART2_RX">
+      <node ref="J105" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U201" pin="9" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/Microcontroller/UART2_TX">
+      <node ref="J105" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U201" pin="8" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/Microcontroller/USR_LED1">
+      <node ref="D201" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U201" pin="18" pinfunction="PA8" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/Microcontroller/USR_LED2">
+      <node ref="D202" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U201" pin="19" pinfunction="PA9" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/Power Supply &amp; Connectors/AMS_IN">
+      <node ref="C101" pin="1" pintype="passive"/>
+      <node ref="FB101" pin="2" pintype="passive"/>
+      <node ref="U101" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="20" name="GND">
+      <node ref="C101" pin="2" pintype="passive"/>
+      <node ref="C102" pin="2" pintype="passive"/>
+      <node ref="C201" pin="2" pintype="passive"/>
+      <node ref="C202" pin="2" pintype="passive"/>
+      <node ref="C203" pin="2" pintype="passive"/>
+      <node ref="C204" pin="2" pintype="passive"/>
+      <node ref="C205" pin="2" pintype="passive"/>
+      <node ref="C206" pin="2" pintype="passive"/>
+      <node ref="C207" pin="2" pintype="passive"/>
+      <node ref="C301" pin="2" pintype="passive"/>
+      <node ref="C302" pin="2" pintype="passive"/>
+      <node ref="C303" pin="2" pintype="passive"/>
+      <node ref="C304" pin="2" pintype="passive"/>
+      <node ref="C305" pin="2" pintype="passive"/>
+      <node ref="H101" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H102" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H103" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H104" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J101" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J102" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J103" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J104" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J105" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R101" pin="2" pintype="passive"/>
+      <node ref="R203" pin="1" pintype="passive"/>
+      <node ref="R204" pin="1" pintype="passive"/>
+      <node ref="SW201" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW202" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U101" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U201" pin="16" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U201" pin="28" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U301" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U301" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U302" pin="1" pinfunction="CLKIN" pintype="input"/>
+      <node ref="U302" pin="11" pinfunction="FSYNC" pintype="input"/>
+      <node ref="U302" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="X201" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="21" name="Net-(C304-Pad1)">
+      <node ref="C304" pin="1" pintype="passive"/>
+      <node ref="U302" pin="10" pinfunction="REGOUT" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(C305-Pad1)">
+      <node ref="C305" pin="1" pintype="passive"/>
+      <node ref="U302" pin="20" pinfunction="CPOUT" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D101-Pad1)">
+      <node ref="D101" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F101" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(D102-Pad1)">
+      <node ref="D102" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R101" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D201-Pad1)">
+      <node ref="D201" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R203" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D202-Pad1)">
+      <node ref="D202" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R204" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(F101-Pad2)">
+      <node ref="F101" pin="2" pintype="passive"/>
+      <node ref="FB101" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(R202-Pad1)">
+      <node ref="R202" pin="1" pintype="passive"/>
+      <node ref="SW202" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(R301-Pad2)">
+      <node ref="R301" pin="2" pintype="passive"/>
+      <node ref="U301" pin="2" pinfunction="CSB" pintype="input"/>
+    </net>
+    <net code="30" name="unconnected-(U201-Pad2)">
+      <node ref="U201" pin="2" pinfunction="PC14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U201-Pad3)">
+      <node ref="U201" pin="3" pinfunction="PC15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U201-Pad7)">
+      <node ref="U201" pin="7" pinfunction="PA1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U201-Pad10)">
+      <node ref="U201" pin="10" pinfunction="PA4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U201-Pad11)">
+      <node ref="U201" pin="11" pinfunction="PA5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U201-Pad20)">
+      <node ref="U201" pin="20" pinfunction="PA10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U201-Pad23)">
+      <node ref="U201" pin="23" pinfunction="PA15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U201-Pad24)">
+      <node ref="U201" pin="24" pinfunction="PB3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U301-Pad5)">
+      <node ref="U301" pin="5" pinfunction="SDO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U302-Pad2)">
+      <node ref="U302" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U302-Pad3)">
+      <node ref="U302" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U302-Pad4)">
+      <node ref="U302" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U302-Pad5)">
+      <node ref="U302" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U302-Pad6)">
+      <node ref="U302" pin="6" pinfunction="AUX_SDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U302-Pad7)">
+      <node ref="U302" pin="7" pinfunction="AUX_SCL" pintype="output+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U302-Pad9)">
+      <node ref="U302" pin="9" pinfunction="AD0" pintype="input+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U302-Pad12)">
+      <node ref="U302" pin="12" pinfunction="INT" pintype="output+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U302-Pad14)">
+      <node ref="U302" pin="14" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U302-Pad15)">
+      <node ref="U302" pin="15" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U302-Pad16)">
+      <node ref="U302" pin="16" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U302-Pad17)">
+      <node ref="U302" pin="17" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U302-Pad19)">
+      <node ref="U302" pin="19" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U302-Pad21)">
+      <node ref="U302" pin="21" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U302-Pad22)">
+      <node ref="U302" pin="22" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(X201-Pad1)">
+      <node ref="X201" pin="1" pinfunction="~{ST}" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

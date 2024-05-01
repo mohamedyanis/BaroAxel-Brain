@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Logos")(type "KiCad")(uri "${KICAD6_FOOTPRINT_DIR}/Logos.pretty")(options "")(descr ""))
+)

@@ -1,6 +1,6 @@
 # BaroAxel Brain
 
-[![StandWithPalestineBadgeBordered](https://raw.githubusercontent.com/saedyousef/StandWithPalestine/main/badges/flat/bordered/StandWithPalestine.svg)](https://techforpalestine.org/learn-more)
+<!--[![StandWithPalestineBadgeBordered](https://raw.githubusercontent.com/saedyousef/StandWithPalestine/main/badges/flat/bordered/StandWithPalestine.svg)](https://techforpalestine.org/learn-more)-->
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](LICENSE)
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)
@@ -80,7 +80,7 @@ git clone https://github.com/mohamedyanis/BaroAxel-Brain.git
 3. Extract the folder and open it.
 4. Navigate for the [Manufacturing](Manufacturing) folder.
 5. Go to your best PCB manufacturer website and click on quote.
-6. Upload the [BaroAxel_Brain_Gerber.rar](Manufacturing/Gerber/BaroAxel_Brain_Gerber.rar) in order to order the board.
+6. Upload the [BaroAxel_Brain_Gerber.rar](Manufacturing/Gerber/BaroAxel_Brain_Gerber.zip) in order to order the board.
 
 ## License
 The content of this project is licenced under the [BSD 3-Clause "New" or "Revised" License](LICENSE).

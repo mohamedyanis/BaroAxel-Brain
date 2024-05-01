@@ -60,7 +60,7 @@ After         |  After
 
 
 ## Testing the Functionality
-Here I tested the functionality of the board after assembling it. I tested the built-in LEDs and the IMU (MPU6050) using I2C protocol, and print some texts on the laptop's screen using putty application via the UART-TTL converter.<br>
+Here I tested the functionality of the board after assembling it. I tested the built-in LEDs and the IMU (MPU6050) using I2C protocol, and print some texts on the laptop's screen using putty application via the UART-TTL converter.<br><br>
 ![](RepoImages/Working-GIF.gif)
 
 ## Requirements

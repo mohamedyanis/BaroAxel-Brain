@@ -50,18 +50,28 @@ Side View 3         |  Side View 4
 
 
 ## Before, During and After Soldering
-Before           | Before
+Before            | Before 2
 :---------------------:|:------------------:
 ![screenshoot](RepoImages/BaroAxel_Soldering1.jpeg) | ![screenshoot](RepoImages/BaroAxel_Soldering2.jpeg)
-During         |  During
+During 1         |  During 2
 ![screenshoot](RepoImages/BaroAxel_Soldering3.jpeg) | ![screenshoot](RepoImages/BaroAxel_Soldering4.jpeg)
-After         |  After
+After 1         |  After 2
 ![screenshoot](RepoImages/BaroAxel_Soldering5.jpeg) | ![screenshoot](RepoImages/BaroAxel_Soldering6.jpeg)
 
 
 ## Testing the Functionality
 Here I tested the functionality of the board after assembling it. I tested the built-in LEDs and the IMU (MPU6050) using I2C protocol, and print some texts on the laptop's screen using putty application via the UART-TTL converter.<br><br>
 ![](RepoImages/Working-GIF.gif)
+
+## 3D Enclosure Design
+Here is the 3D Enclosure I designed using SolidWorks. The design contains the top and bottom pieces as well as a small glass plate just to show the electronics inside. Of course assembled with SolidWorks Assembly.
+See the folder [3D](3D) in order to get the designs and print the parts using a 3D Printer.<br><br>
+Enclosure Top           | Enclosure Bottom
+:---------------------:|:------------------:
+![screenshoot](RepoImages/BaroAxel_Brain_3d_1.png) | ![screenshoot](RepoImages/BaroAxel_Brain_3d_2.png)
+Assembly Side 1         |  Assembly Side 2
+![screenshoot](RepoImages/BaroAxel_Brain_3d_3.png) | ![screenshoot](RepoImages/BaroAxel_Brain_3d_4.png)
+
 
 ## Requirements
 

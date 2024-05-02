@@ -68,9 +68,9 @@ Here is the 3D Enclosure I designed using SolidWorks. The design contains the to
 See the folder [3D](3D) in order to get the designs and print the parts using a 3D Printer.<br><br>
 Enclosure Top           | Enclosure Bottom
 :---------------------:|:------------------:
-![screenshoot](RepoImages/BaroAxel_Brain_3d_1.png) | ![screenshoot](RepoImages/BaroAxel_Brain_3d_2.png)
+![screenshoot](RepoImages/BaroAxel_Brain_3d_1.jpg) | ![screenshoot](RepoImages/BaroAxel_Brain_3d_2.jpg)
 Assembly Side 1         |  Assembly Side 2
-![screenshoot](RepoImages/BaroAxel_Brain_3d_3.png) | ![screenshoot](RepoImages/BaroAxel_Brain_3d_4.png)
+![screenshoot](RepoImages/BaroAxel_Brain_3d_3.jpg) | ![screenshoot](RepoImages/BaroAxel_Brain_3d_4.jpg)
 
 
 ## Requirements

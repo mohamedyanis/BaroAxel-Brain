@@ -1,0 +1,13 @@
+Plotted to 'F:\Documents\Kicad\KiCad 6\BaroAxel_Brain_Board\Manufacturing\Gerber\BaroAxel_Brain-F_Cu.gbr'.
+Plotted to 'F:\Documents\Kicad\KiCad 6\BaroAxel_Brain_Board\Manufacturing\Gerber\BaroAxel_Brain-In1_Cu.gbr'.
+Plotted to 'F:\Documents\Kicad\KiCad 6\BaroAxel_Brain_Board\Manufacturing\Gerber\BaroAxel_Brain-In2_Cu.gbr'.
+Plotted to 'F:\Documents\Kicad\KiCad 6\BaroAxel_Brain_Board\Manufacturing\Gerber\BaroAxel_Brain-B_Cu.gbr'.
+Plotted to 'F:\Documents\Kicad\KiCad 6\BaroAxel_Brain_Board\Manufacturing\Gerber\BaroAxel_Brain-F_Paste.gbr'.
+Plotted to 'F:\Documents\Kicad\KiCad 6\BaroAxel_Brain_Board\Manufacturing\Gerber\BaroAxel_Brain-B_Paste.gbr'.
+Plotted to 'F:\Documents\Kicad\KiCad 6\BaroAxel_Brain_Board\Manufacturing\Gerber\BaroAxel_Brain-F_Silkscreen.gbr'.
+Plotted to 'F:\Documents\Kicad\KiCad 6\BaroAxel_Brain_Board\Manufacturing\Gerber\BaroAxel_Brain-B_Silkscreen.gbr'.
+Plotted to 'F:\Documents\Kicad\KiCad 6\BaroAxel_Brain_Board\Manufacturing\Gerber\BaroAxel_Brain-F_Mask.gbr'.
+Plotted to 'F:\Documents\Kicad\KiCad 6\BaroAxel_Brain_Board\Manufacturing\Gerber\BaroAxel_Brain-B_Mask.gbr'.
+Plotted to 'F:\Documents\Kicad\KiCad 6\BaroAxel_Brain_Board\Manufacturing\Gerber\BaroAxel_Brain-Edge_Cuts.gbr'.
+Created Gerber job file 'F:\Documents\Kicad\KiCad 6\BaroAxel_Brain_Board\Manufacturing\Gerber\BaroAxel_Brain-job.gbrjob'.
+Info: Done.

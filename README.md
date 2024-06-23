@@ -50,7 +50,7 @@ Side View 3         |  Side View 4
 
 
 ## Before, During and After Soldering
-Before            | Before 2
+Before 1            | Before 2
 :---------------------:|:------------------:
 ![screenshoot](RepoImages/BaroAxel_Soldering1.jpeg) | ![screenshoot](RepoImages/BaroAxel_Soldering2.jpeg)
 During 1         |  During 2

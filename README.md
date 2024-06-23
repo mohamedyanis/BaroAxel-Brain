@@ -69,7 +69,7 @@ See the folder [3D](3D) in order to get the designs and print the parts using a 
 Enclosure Top           | Enclosure Bottom
 :---------------------:|:------------------:
 ![screenshoot](RepoImages/BaroAxel_Brain_3d_1.JPG) | ![screenshoot](RepoImages/BaroAxel_Brain_3d_2.JPG)
-Assembly Side 1         |  Assembly Side 2
+Enclosure Side 1         |  Enclosure Side 2
 ![screenshoot](RepoImages/BaroAxel_Brain_3d_3.JPG) | ![screenshoot](RepoImages/BaroAxel_Brain_3d_4.JPG)
 
 
